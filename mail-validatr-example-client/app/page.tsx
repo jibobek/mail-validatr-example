@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { validateEmail, type EmailValidationResult } from '../../../../mail-validatr/dist';
+import { validateEmail, type EmailValidationResult } from 'mail-validatr';
 
 export default function Home() {
   const [email, setEmail] = useState('');
